@@ -2,6 +2,7 @@
 
 In this Kaggle competition, the aim was to predict what items in the last customer order would be repurchased in the next order. The problem is in the realm of recommender systems but lacks the need for solutions to the cold start problem.
 
+My approach involved in-depth exploratory data analysis (EDA) to identify patterns and significant features influencing reordering habits. I addressed missing data using stratification analysis and imputation via random forests. I engineered features like cyclic transformations of time data, NLP-derived product name embeddings, and a 'comeback_ratio' to predict reordering probabilities. For modeling, I chose gradient boosted machines, optimizing them with optuna. The project also incorporated an F1 optimization method to refine the predictions, significantly boosting performance.
 
 <br>
 
